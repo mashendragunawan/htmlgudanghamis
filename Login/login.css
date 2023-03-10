@@ -1,0 +1,14 @@
+body{
+    background-color: #10ac84;
+}
+h1{
+    color: #fff;
+}
+.Login1{
+    width: 380px;
+    height: 350px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 20px;
+}
