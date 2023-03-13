@@ -16,8 +16,8 @@
                 </div>
                 <div class="row">
                     <i class="fa fa-lock"></i>
-                    <input type="password" placeholder="Password">
-                    <p class="fa fa-eye "></p>
+                    <input type="password" placeholder="Password" id="password">
+                    <p class="fa fa-eye" id="eye" onclick="toogle()"></p>
                 </div>
                 <div class="row button" >
                     <input type="submit" value="login">
@@ -27,4 +27,15 @@
         </div>
         </div>
     </body>
+    <script>
+        var state= false;
+        function toogle(){
+            if(state){
+                document.getElementById("password").setAttribute("type","password"); document.getElementById("eye").style.color='black'; state = false;
+            }
+            else{
+                document.getElementById("password").setAttribute("type","text"); document.getElementById("eye").style.color='#16a085'; state = true;
+            }
+        }
+    </script>
 </html>

@@ -83,6 +83,11 @@ form .row input:focus{
 }
 
 p{
-    margin-left: 20px;
-    color:#16a085;
+   position: absolute;
+ 
+    right: 15px;
+    transform: translate(0,-50%);
+    top:50%;
+    font-size: 50px;
+    cursor: pointer;
 }
